@@ -1,3 +1,5 @@
+package Factory;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -16,7 +18,7 @@ public class Main {
         Price p = planFactory.getPlan(planName);
         //call getRate() method and calculateBill()method of DomesticPaln.
 
-        System.out.print("Price for "+planName+" of  "+units+" is: ");
+        System.out.print("Factory.Price for "+planName+" of  "+units+" is: ");
         p.setPrice();
         p.calculatePrice(units);
     }

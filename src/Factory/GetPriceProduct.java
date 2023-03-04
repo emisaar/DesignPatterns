@@ -1,3 +1,5 @@
+package Factory;
+
 public class GetPriceProduct {
     // use getPlan method to get object of type Plan
     public Price getPlan(String getItem){

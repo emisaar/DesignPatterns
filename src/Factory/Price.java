@@ -1,3 +1,5 @@
+package Factory;
+
 abstract class Price {
     protected double price;
     abstract void setPrice();
